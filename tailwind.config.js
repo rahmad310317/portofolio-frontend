@@ -7,7 +7,7 @@ module.exports = {
       padding: '16px',
     },
     fontFamily: {
-      sans: [
+      'sans': [
         "Inter var, sans-serif",
         {
           fontFeatureSettings: '"cv11", "ss01"',
@@ -18,6 +18,9 @@ module.exports = {
     extend: {
       screens: {
         'xl': '1024px',
+        'sm': '576px',
+        'md': '960px',
+        'lg': '1440px',
       },
 
       // },
