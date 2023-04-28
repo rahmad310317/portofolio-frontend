@@ -889,6 +889,10 @@ video {
 .navbar-fixed {
   position: fixed;
   z-index: 9999;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  --tw-bg-opacity: 0.7;
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
 }
 
 .humberger-line {
