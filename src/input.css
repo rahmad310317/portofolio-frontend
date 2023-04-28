@@ -3,6 +3,22 @@
 @tailwind components;
 @tailwind utilities;
 
+.navbar-fixed {
+  @apply fixed z-[9999];
+}
+
 .humberger-line {
   @apply w-[30px] h-[2px] my-2 block bg-green-600;
+}
+
+.humberger-active > span:nth-child(1) {
+  @apply rotate-45;
+}
+
+.humberger-active > span:nth-child(2) {
+  @apply scale-0;
+}
+
+.humberger-active > span:nth-child(3) {
+  @apply -rotate-45;
 }
