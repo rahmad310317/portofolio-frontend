@@ -21,3 +21,8 @@ humberger.addEventListener('click', function () {
   humberger.classList.toggle('humberger-active');
   navMenu.classList.toggle('hidden');
 });
+
+const setData = document.querySelector('#setData');
+
+set.classList.offsetTop('hidden');
+
